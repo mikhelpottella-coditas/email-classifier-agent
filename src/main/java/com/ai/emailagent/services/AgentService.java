@@ -40,7 +40,6 @@ public class AgentService {
                         .topP(0.7)
                 )
                 .tools(fileReader)
-                .tools(dataReader)
                 .call()
                 .content();
     }
